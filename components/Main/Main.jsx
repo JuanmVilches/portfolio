@@ -5,39 +5,12 @@ import { ReactTyped } from "react-typed";
 export default function Main() {
   return (
     <>
-      <nav className="!mt-4 flex justify-center">
-        <ul className="flex gap-6 list-none">
-          <li className="text-white list-none flex items-center cursor-pointer group ml-0 first:ml-8">
-            <a
-              href="#aboutme"
-              className="relative transition-all duration-400 no-underline text-white hover:text-[#4169e1] after:content-[''] after:absolute after:bg-[#4169e1] after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:scale-x-0 after:origin-center after:w-0 after:h-[1px] after:transition-all after:duration-300 after:ease-in-out hover:after:w-full hover:after:scale-x-100"
-            >
-              About me
-            </a>
-          </li>
-          <li>
-            <a
-              href="#technologies"
-              className="relative transition-all duration-400 no-underline text-white hover:text-[#4169e1] after:content-[''] after:absolute after:bg-[#4169e1] after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:scale-x-0 after:origin-center after:w-0 after:h-[1px] after:transition-all after:duration-300 after:ease-in-out hover:after:w-full hover:after:scale-x-100"
-            >
-              Technologies
-            </a>
-          </li>
-          <li>
-            <a
-              href="#projects"
-              className="relative transition-all duration-400 no-underline text-white hover:text-[#4169e1] after:content-[''] after:absolute after:bg-[#4169e1] after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:scale-x-0 after:origin-center after:w-0 after:h-[1px] after:transition-all after:duration-300 after:ease-in-out hover:after:w-full hover:after:scale-x-100"
-            >
-              Projects
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <main className="h-screen flex flex-col justify-center items-center text-white">
-        <h1 className="text-5xl font-bold mb-4 text-center">
+      <main className="min-h-screen flex flex-col justify-center items-center text-white !px-4 !py-8">
+        <h1 className="text-6xl font-bold mb-4 text-center">
           <ReactTyped
             strings={[
-              "Hi nice to meet you! <span class='text-[#4169e1]'>I'm Juan Manuel Vilches</span>",
+              "Hola! Mi nombre es <span class='text-[#4169e1]'>Juan Manuel Vilches</span>",
+              "Soy desarrollador <span class='text-[#4169e1]'>Fullstack Junior</span>",
             ]}
             typeSpeed={40}
             backSpeed={40}
@@ -45,13 +18,14 @@ export default function Main() {
           />
         </h1>
 
-        <div className="w-full text-center !mt-16 flex items-center justify-center">
+        <div className="w-full text-center !mt-16 flex flex-col items-center justify-center gap-4 md:flex-row md:gap-0">
           <a
             href="mailto:juanmanuelvilches99@gmail.com"
+            title="Enviame un mail haciendo click aquí"
             target="_blank"
-            className="bg-blue-500 hover:bg-blue-600 text-white !px-6 !py-3 rounded-2xl transition !mr-4"
+            className="bg-blue-500 hover:bg-blue-600 text-white !px-6 !py-3 rounded-2xl transition md:!mr-4"
           >
-            Send me an email!
+            Enviame un mail!
           </a>
           <a href="" title="Github">
             <FontAwesomeIcon icon={faGithub} className="text-4xl" />
