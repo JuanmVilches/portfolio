@@ -45,6 +45,7 @@ export default function Projects() {
               <Tag>Middlewares</Tag>
               <Tag>JWT</Tag>
               <Tag>API REST</Tag>
+              <Tag>CORS</Tag>
             </div>
           </div>
         </article>
