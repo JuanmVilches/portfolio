@@ -29,12 +29,12 @@ export default function Projects() {
             </a>
           </div>
           <div className="card-footer !mt-6">
-            <p className="">
+            <p className="md:text-left text-center">
               Fue el requisito de aprobación del bootcamp que engloba todo lo
               aprendido en el mismo. Frontend + Backend, autenticación, login,
               diseño responsive.
             </p>
-            <div className="flex gap-4 flex-wrap !mt-5 items-center">
+            <div className="flex gap-4 flex-wrap !mt-5 items-center justify-center md:justify-start">
               <Tag>JavaScript</Tag>
               <Tag>React</Tag>
               <Tag>NodeJS</Tag>
@@ -65,11 +65,11 @@ export default function Projects() {
             </a>
           </div>
           <div className="card-footer !mt-6">
-            <p className="">
+            <p className="md:text-left text-center">
               Aplicación para llevar un control de gastos conectada a un backend
               de mongoDB para preservar los datos.
             </p>
-            <div className="flex gap-4 flex-wrap !mt-5 items-center">
+            <div className="flex gap-4 flex-wrap !mt-5 items-center justify-center md:justify-start">
               <Tag>JavaScript</Tag>
               <Tag>React</Tag>
               <Tag>NodeJS</Tag>
