@@ -1,3 +1,4 @@
+import fotoPerfil from "/src/assets/fotoperfil.png";
 export default function About() {
   return (
     <section
@@ -9,7 +10,7 @@ export default function About() {
       </h2>
       <div className="flex flex-col items-center md:flex-row bg-dark-950 !p-2 rounded-4xl border border-lime-200">
         <img
-          src="../src/assets/fotoperfil.png"
+          src={fotoPerfil}
           alt=""
           className=" h-[400px] object-cover rounded-2xl [mask-image:linear-gradient(black_80%,transparent)] [-webkit-mask-image:linear-gradient(black_70%,transparent)]"
         />

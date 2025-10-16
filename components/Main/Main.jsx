@@ -11,7 +11,7 @@ export default function Main() {
       >
         <div>
           <a
-            href="../public/CV.pdf"
+            href="/CV.pdf"
             target="_blank"
             className="flex gap-2 justify-center items-center border border-[#f7ff9f] rounded-2xl !p-4 !mb-16"
           >

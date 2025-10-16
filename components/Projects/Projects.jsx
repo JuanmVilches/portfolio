@@ -1,3 +1,6 @@
+import appdegastos from "/src/assets/appdegastos.png";
+import ecommerce from "/src/assets/ecommerce16.9.png";
+
 export default function Projects() {
   const Tag = ({ children }) => {
     return (
@@ -22,7 +25,7 @@ export default function Projects() {
               className=""
             >
               <img
-                src="../public/ecommerce16.9.png"
+                src={ecommerce}
                 alt=""
                 className="object-cover hover:scale-102 transition-transform duration-300"
               />
@@ -58,7 +61,7 @@ export default function Projects() {
               className=""
             >
               <img
-                src="../public/appdegastos.png"
+                src={appdegastos}
                 alt=""
                 className="object-cover hover:scale-102 transition-transform duration-300"
               />
